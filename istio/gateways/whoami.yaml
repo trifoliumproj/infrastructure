@@ -36,7 +36,7 @@ spec:
   http:
     - route:
         - destination:
-          # <service>.<namespace>.svc.cluster.local
-          host: whoami.whoami.svc.cluster.local
-          port:
-            number: 80
+            # <service>.<namespace>.svc.cluster.local
+            host: whoami.whoami.svc.cluster.local
+            port:
+              number: 80
