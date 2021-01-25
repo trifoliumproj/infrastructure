@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: ingress-certificate
+spec:
+  secretName: ingress-certificate
+  issuerRef:
+    name: le
+    kind: ClusterIssuer
+  commonName: whoami.trifolium.fleeingsunlight.dev
+  dnsNames:
+    - whoami.trifolium.fleeingsunlight.dev
