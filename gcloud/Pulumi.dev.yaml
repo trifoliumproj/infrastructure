@@ -1,5 +1,2 @@
-name: hu-tao-supremacy
-runtime: nodejs
-template:
-  config:
-    gcp:project: hu-tao-supremacy
+config:
+  gcp:project: hu-tao-supremacy
