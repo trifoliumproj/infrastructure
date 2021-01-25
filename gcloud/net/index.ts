@@ -26,7 +26,7 @@ export const router = new gcp.compute.Router(prefix("router"), {
   },
 });
 
-export const ANT = new gcp.compute.RouterNat(
+export const NAT = new gcp.compute.RouterNat(
   prefix("router-nat"),
   {
     router: router.name,
