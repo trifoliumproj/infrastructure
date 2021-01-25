@@ -1,0 +1,14 @@
+{
+  "name": "gcloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@pulumi/gcp": "^4.8.0",
+    "@pulumi/kubernetes": "^2.7.7",
+    "@pulumi/pulumi": "^2.18.2",
+    "@pulumi/random": "^3.0.1",
+    "@types/ejs": "^3.0.5",
+    "ejs": "^3.1.5"
+  }
+}
