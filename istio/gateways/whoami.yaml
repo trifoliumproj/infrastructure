@@ -14,6 +14,14 @@ spec:
       hosts:
         - "*"
     - port:
+        number: 80
+        name: http-redirect
+        protocol: HTTP
+      hosts:
+        - "whoami.trifolium.fleeingsunlight.dev"
+      tls:
+        httpsRedirect: true
+    - port:
         number: 443
         name: https
         protocol: HTTPS
