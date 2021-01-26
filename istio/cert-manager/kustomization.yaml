@@ -1,4 +1,5 @@
 namespace: istio-system
 resources:
-  - ./issuer.yaml
+  - ./issuer-staging.yaml
+  - ./issuer-prod.yaml
   - ./ingress-certificate.yaml

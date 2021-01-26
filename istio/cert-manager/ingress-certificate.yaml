@@ -5,7 +5,7 @@ metadata:
 spec:
   secretName: ingress-certificate
   issuerRef:
-    name: le
+    name: letsencrypt-prod
     kind: ClusterIssuer
   commonName: whoami.trifolium.fleeingsunlight.dev
   dnsNames:
