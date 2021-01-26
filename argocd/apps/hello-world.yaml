@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: hu-tao-supremacy
+  name: hello-world
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   source:
     repoURL: https://github.com/trifoliumproj/deployment.git
     targetRevision: HEAD
-    path: hu-tao-supremacy
+    path: hello-world
   syncPolicy:
     automated:
       prune: true
