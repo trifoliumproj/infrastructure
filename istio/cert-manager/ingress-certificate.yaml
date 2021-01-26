@@ -10,3 +10,4 @@ spec:
   commonName: whoami.trifolium.fleeingsunlight.dev
   dnsNames:
     - whoami.trifolium.fleeingsunlight.dev
+    - argocd.trifolium.fleeingsunlight.dev
